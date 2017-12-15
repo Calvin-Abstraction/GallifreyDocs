@@ -34,7 +34,7 @@ The main command to get mark2 up and running is simple:
 mark2 start [server name]
 ```
 
-If you are in the directory of a spesific minecraft server (e.g. /home/gamer/default/) you don't need to specify the server name. Once the server is running, you can go to the management interface by typing
+If you are in the directory of a specific minecraft server (e.g. /home/gamer/default/) you don't need to specify the server name. Once the server is running, you can go to the management interface by typing
 
 ```
 mark2 attach
