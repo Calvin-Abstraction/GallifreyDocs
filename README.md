@@ -21,7 +21,7 @@ to open the ssh config file for editing. At the bottom of the file, add the line
 AllowUsers [user]@[host]
 ```
 
-to enable access. If you only want them to access the server from on-site, make host 153.106.*, otherwise just use * to allow access from anywhere.
+to enable access. If you only want them to access the server from on-site, make host 153.106.\*, otherwise just use \* to allow access from anywhere.
 
 
 ### Managing Minecraft
