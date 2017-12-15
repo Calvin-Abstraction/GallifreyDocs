@@ -31,7 +31,7 @@ the line
     AllowUsers [user]@[host]
 
 to enable access. If you only want them to access the server from
-on-site, make host 153.106._, otherwise just use _ to allow access from
+on-site, make host 153.106.*, otherwise just use * to allow access from
 anywhere.
 
 Managing Minecraft
