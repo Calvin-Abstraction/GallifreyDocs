@@ -66,7 +66,7 @@ type
 
 to just dump text into the chat.
 
-Mark2 also accepts spesific commands for the mark2 interface through
+Mark2 also accepts specific commands for the mark2 interface through
 this prompt. You prepend any mark2 commands with a tilde (~), like so:
 
     ~restart 2m
