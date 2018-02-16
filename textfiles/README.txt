@@ -1,27 +1,33 @@
-
-
-GALLIFREY GAMING SERVER DOCUMENTATION
-
+Gallifrey Gaming Server Documentation
+=====================================
 
 On-server docs meant to get you started with managing the Abstraction
 Gaming Evironment.
 
+Note on Documentation Structure
+-------------------------------
+
+I write the documentation in *markdown* syntax, so as to look nice when
+viewed on github or other markdown-compatible readers. If you are in a
+terminal or other plaintext only situation, I have .txt versions of each
+markdown document in the 'textfiles' directory of this repository.
 
 Getting Started
+---------------
 
 The best way to manage this server is remotely. If you are reading this,
 you are either using the VMWare vSphere client or SSH. For vSphere, we
 have set-up ports to allow internal connections to be forwarded to the
 system. If you want external vSphere access, you will need to talk to
 Calvin IT about opening ports 443 and 902 to the outside world. This is
-_not_ reccomended, instead, you should use SSH from remote sites (i.e.
+*not* reccomended, instead, you should use SSH from remote sites (i.e.
 off-campus).
 
 Allowing SSH Access
 
 This server has been "hardened" to a degree for SSH. In order to allow a
 user to access the server via SSH, you will need to add them to the
-sshd_config file. you can do this by typing
+sshd\_config file. you can do this by typing
 
     sudo nano /etc/ssh/sshd_config
 
@@ -31,15 +37,15 @@ the line
     AllowUsers [user]@[host]
 
 to enable access. If you only want them to access the server from
-on-site, make host 153.106.*, otherwise just use * to allow access from
-anywhere.
+on-site, make host 153.106.\*, otherwise just use \* to allow access
+from anywhere.
 
 Managing Minecraft
 
 When I (Quentin) was gaming admin, I decided to start this server from
 scratch. When I did, I switched from a homebrew managment panel to an
-open-source manager called "Mark2". The code may be found on github if
-you want to see more.
+open-source manager called "Mark2". The code may be found on
+[github](https://github.com/gsand/mark2) if you want to see more.
 
 The main command to get mark2 up and running is simple:
 
@@ -66,8 +72,8 @@ type
 
 to just dump text into the chat.
 
-Mark2 also accepts specific commands for the mark2 interface through
-this prompt. You prepend any mark2 commands with a tilde (~), like so:
+Mark2 also accepts spesific commands for the mark2 interface through
+this prompt. You prepend any mark2 commands with a tilde (\~), like so:
 
     ~restart 2m
 

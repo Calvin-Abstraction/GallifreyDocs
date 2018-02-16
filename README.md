@@ -2,6 +2,9 @@
 
 On-server docs meant to get you started with managing the Abstraction Gaming Evironment.
 
+## Note on Documentation Structure
+I write the documentation in *markdown* syntax, so as to look nice when viewed on github or other markdown-compatible readers. If you are in a terminal or other plaintext only situation, I have .txt versions of each markdown document in the 'textfiles' directory of this repository.
+
 ## Getting Started
 
 The best way to manage this server is remotely. If you are reading this, you are either using the VMWare vSphere client or SSH. For vSphere, we have set-up ports to allow internal connections to be forwarded to the system. If you want external vSphere access, you will need to talk to Calvin IT about opening ports 443 and 902 to the outside world. This is *not* reccomended, instead, you should use SSH from remote sites (i.e. off-campus).
