@@ -21,11 +21,11 @@ When you are ready, click "start server" on your station. NOTE THAT THE IP SHOWN
 
 Write the IP on the board or share it with people however works best. From here on out, you should be able to play the game without any additional tweaks.
 
-##KTANE Setup
+## KTANE Setup
 
 This is pretty straightforward. Just run the KTANE executable stored in the games folder on your machine, and communicate verbally with your teammates. You can print out or get copies of the "bomb defusal manual" from qrb2 beforehand.
 
-##League Setup
+## League Setup
 
 I have downloaded and installed a full copy of LoL directly to the (W:) drive on SYSLAB24. Instruct users to copy the "Riot Games" folder directly to the top level of their (C:) drives, then run the game by using the LeagueClient.exe application in the folder.
 
