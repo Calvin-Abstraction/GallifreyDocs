@@ -10,7 +10,7 @@ Log in to the Windows image; unless you are feeling adventurous and want to try 
 
 I store games in my home (S:) drive. Unfortunately, to share them, you will need to copy the files/folder to the local machines "Thawspace0" (W:) drive, then enable sharing. To do this, right-click on the folder or file (I usually put all the games under one 'games' folder) and click properties. In the dialogue box that opens, select the Sharing tab, then click on the "Share..." button. In the box that opens, type "everyone" into the search prompt, and click "Share". The window should then show a confirmation, with the file and the path to access it from other machines in the room (it will look something like \\\\MACHINE_NAME\\FOLDER) .
 
-As of Feb 2018, I have most games shared in the UNIX lab at \\\\STALLMAN\\games, and in the Syslab at \\\\SYSLAB24\games.
+As of Feb 2018, I have most games shared in the UNIX lab at \\\\STALLMAN\\games, and in the Syslab at \\\\SYSLAB24\\games.
 
 ## Artemis Setup
 In the games folder, there is a folder called "Artemis". Have LAN party participants copy the Artemis folder to their local desktop, then use the Artemis.exe file inside it to launch the game.
